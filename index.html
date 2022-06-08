@@ -1,0 +1,20 @@
+<htmllang="en">
+<head>
+<link href="https://episphere.github.io/gps/gps.css" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="index.js"></script>
+</head>
+<body>
+<h1>Impute <sup style="font-size:small;color:navy">[<a href="https://github.com/episphere/impute" target="_blank">code</a>]</sup></h1>
+<hr>
+<p>
+CSV and JSON supported, leave values to be imputed empty or undefined
+</p>
+Load from <button>local file</button> or <button>remote url</button> <input size=40 id="url" style="color:blue">
+</body>
+    <script>
+        if(location.search.length>3){
+            url.value=location.search.slice(1)
+        }
+    </script>
+</html>
